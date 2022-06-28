@@ -320,6 +320,12 @@ header .container{
 .contact__form input:focus, .contact__form select:focus{
     box-shadow: 0 0 24px #75ab2e;
 }
+.contact__select{
+    border: 0.1px solid #75ab2e;
+    border-radius: 5px;
+    max-height: 70px;
+    margin-bottom: 16px;
+}
 .contact__form {
     color: #484746;
 }
@@ -381,7 +387,7 @@ iframe{
     gap: 20px;
 }
 .services__item{
-    background: #f5f5f5df;
+    background: rgba(245, 245, 245, 0.847);
     border-radius: 20px;
     width: 45%;
     min-width: 280px;

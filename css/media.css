@@ -149,7 +149,9 @@
         background-attachment: scroll;
         background-size: cover;
         background-position: left 22% top;
-
+    }
+    .services__item{
+        background: rgba(245, 245, 245, 0.847);
     }
 }
 @media (max-width: 450px){
