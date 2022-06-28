@@ -8,16 +8,21 @@ function menuOpen(){
         body.classList.toggle('scroll_none');
     }
     let navLinksA=document.querySelectorAll('.nav__links a');
-    navLinksA.forEach(function(navLinkA){
-        navLinkA.onclick=function(){
-           setTimeout(menuClouse, 500); //задержка перед какой-то функцией//
+    for (let number = 0; number < 3; number++){
+        navLinksA[number].onclick=function(){
+            hamburger.classList.remove('hamburger_active');
+            navLinks.classList.remove('nav__links_active');
+            body.classList.remove('scroll_none');
         }
-    })
-    function menuClouse(){
-        hamburger.classList.remove('hamburger_active');
-        navLinks.classList.remove('nav__links_active')
-        body.classList.remove('scroll_none')
     }
+    // navLinksA.forEach(function(navLinkA){
+    //     navLinkA.onclick=function(){
+    //        setTimeout(menuClouse, 500); //задержка перед какой-то функцией//
+    //     }
+    // })
+    // function menuClouse(){
+       
+    // }
 }
 menuOpen();
 
