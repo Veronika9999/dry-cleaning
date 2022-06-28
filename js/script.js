@@ -15,14 +15,6 @@ function menuOpen(){
             body.classList.remove('scroll_none');
         }
     }
-    // navLinksA.forEach(function(navLinkA){
-    //     navLinkA.onclick=function(){
-    //        setTimeout(menuClouse, 500); //задержка перед какой-то функцией//
-    //     }
-    // })
-    // function menuClouse(){
-       
-    // }
 }
 menuOpen();
 
